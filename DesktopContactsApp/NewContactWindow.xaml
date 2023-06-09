@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel Margin="10">
             <TextBox x:Name="nameTextBox"
-                     Margin="0 0 0 5"/>
+                     Margin="0 0 0 5" />
             <TextBox x:Name="emailTextBox"
                      Margin="0 0 0 5"/>
             <TextBox x:Name="phoneTextBox"
