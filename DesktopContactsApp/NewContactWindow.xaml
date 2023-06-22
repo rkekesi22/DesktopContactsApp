@@ -14,8 +14,15 @@
                      Margin="0 0 0 5"/>
             <TextBox x:Name="phoneTextBox"
                      Margin="0 0 0 5"/>
-            <Button Content="Save"
-                    Click="saveButton_Click"/>
+            <Button Content="Update"
+                    Click="updateButton_Click"
+                    x:Name="updateButton"
+                    Margin="0,0,0,5"/>
+            <Button Content="Delete"
+                    Click="deleteButton_Click"
+                    x:Name="deleteButton"
+                    Background="Red"
+                    Foreground="White"/>
         </StackPanel>
     </Grid>
 </Window>

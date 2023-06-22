@@ -49,6 +49,14 @@ namespace DesktopContactsApp
             Close();
         }
 
-      
+        private void updateButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void deleteButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
