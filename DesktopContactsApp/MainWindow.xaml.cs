@@ -95,7 +95,10 @@ namespace DesktopContactsApp
                 //Open a new contactdetail swindow
                 //newContactWindow.Show();
                 newContactDetailsWindow.ShowDialog();
+                ReadDatabase();
             }
+
+           
         }
     }
 }
